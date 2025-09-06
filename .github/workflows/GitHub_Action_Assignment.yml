@@ -4,10 +4,13 @@ name: GitHub Action
 
 on:
   # PUT A TRIGGER HERE
+  pull-request
 
 jobs:
-  job-name: # CALL THE JOB SOMETHING
+  job-name:  # CALL THE JOB SOMETHING
     runs-on: ubuntu-latest  
     
     steps:
         # PUT A STEP HERE 'uses' or 'run'
+      - name: Run a one-line script
+        run: echo "Hello, world!"
