@@ -4,7 +4,7 @@ name: GitHub Action
 
 on:
   # PUT A TRIGGER HERE
-  pull-request
+  pull_request
 
 jobs:
   job-name:  # CALL THE JOB SOMETHING
